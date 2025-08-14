@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Survey } from '../types';
 import { Button, Card } from './ui';
-import { storageService } from '../services/storageService';
+import { storageService } from '../services/storageService.ts';
 
 interface RunnerProps {
   survey: Survey;

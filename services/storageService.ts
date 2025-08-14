@@ -1,5 +1,5 @@
 import { Survey, SurveyResponse } from '../types';
-import { authService } from './authService';
+import { authService } from './authService.ts';
 
 const SURVEYS_KEY = 'surveys';
 const RESPONSES_KEY_PREFIX = 'responses_';
