@@ -4,9 +4,9 @@
 import React, { useState, useEffect, useCallback, createContext, useContext, useRef } from 'react';
 import { HashRouter, Routes, Route, useParams, useNavigate, Link, Navigate, Outlet } from 'react-router-dom';
 import { Survey, SurveyResponse, GeminiAnalysis, DrawflowData, User } from './types';
-import { storageService } from './services/storageService';
-import { geminiService } from './services/geminiService';
-import { authService } from './services/authService';
+import { storageService } from './services/storageService.ts';
+import { geminiService } from './services/geminiService.ts';
+import { authService } from './services/authService.ts';
 import { Builder } from './components/Builder';
 import { Runner } from './components/Runner';
 import { Button, Card, Spinner, Modal } from './components/ui';
