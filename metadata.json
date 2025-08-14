@@ -1,0 +1,5 @@
+{
+  "name": "Gemini Visual Survey Platform",
+  "description": "A node-based visual platform for creating, deploying, and analyzing surveys, enhanced with Gemini AI for survey generation and response analysis.",
+  "requestFramePermissions": []
+}
